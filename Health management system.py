@@ -51,32 +51,32 @@ def retrieve(k):
         c= int(input("Enter 1 for exercise and 2 for food:"))
         if c==1:
             with open("harry-ex.txt") as txt:
-                for i in op:
+                for i in txt:
                     print(i,end="")
         if c==2:
             with open("harry-fd.txt") as txt:
-                for i in op:
+                for i in txt:
                     print(i,end="")
 
     if k==2:
         l= int(input("Enter 1 for exercise and 2 for food:"))
         if l==1:
             with open("hammad-ex.txt") as txt:
-                for i in op:
+                for i in txt:
                     print(i,end="")
         if l==2:
             with open("hammad-fd.txt") as txt:
-                for i in op:
+                for i in txt:
                     print(i,end="")
     if k==3:
         m= int(input("Enter 1 for exercise and 2 for food:"))
         if m==1:
             with open("Rohan-ex.txt") as txt:
-                for i in op:
+                for i in txt:
                     print(i,end="")
         if m==2:
             with open("Rohan-fd.txt") as txt:
-                for i in op:
+                for i in txt:
                     print(i,end="")
 ab= print("[HEALTH MANAGEMENT SYSTEM]")
 a= int(input("Enter 1,2,3 for harry , hammad and rohan:"))

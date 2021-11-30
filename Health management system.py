@@ -13,19 +13,19 @@ def log(k):
         if c==1:
             value= input("Type here:")
             with open("harry-ex.txt","a") as txt:
-                Txt.write(str([getdate()])+":"+value+"\n")
+                txt.write(str([getdate()])+":"+value+"\n")
                 print("Successfully written")
         if c==2:
             value= (input("Type here:"))
             with open("harry-fd.txt","a") as txt:
-                Txt.write(str([getdate()])+":"+value+"\n")
+                txt.write(str([getdate()])+":"+value+"\n")
                 print("Successfully written")
     elif k==2:
         l = int(input("Enter 1 for exercise and 2 for food:"))
         if l == 1:
             value = input("Type here:")
             with open("hammad-ex.txt", "a") as txt:
-                Txt.write(str([getdate()])+":"+value+"\n")
+                txt.write(str([getdate()])+":"+value+"\n")
                 print("Successfully written")
         if l == 2:
             value = input("Type here:")

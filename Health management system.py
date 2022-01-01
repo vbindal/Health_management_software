@@ -78,9 +78,9 @@ def retrieve(k):
             with open("Rohan-fd.txt") as txt:
                 for i in txt:
                     print(i,end="")
-ab= print("[HEALTH MANAGEMENT SYSTEM]")
+ab= print("[HEALTH MANAGEMENT SYSTEM]\n")
 a= int(input("Enter 1,2,3 for harry , hammad and rohan:"))
-b= int(input("Press 1 to log the data and 2 for retrieve data:"))
+b= int(input("\nPress 1 to log the data and 2 for retrieve data:"))
 if b==1:
     log(a)
 else:
